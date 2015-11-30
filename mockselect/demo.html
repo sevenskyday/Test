@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>模拟下拉</title>
+<link rel="stylesheet" type="text/css" href="css/mocksele.css"/>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/mockslt.js"></script>
+</head>
+
+<body>
+
+<div class="demo">
+	<dl id="testslt" class="select" data-value="#">
+		<dt data-value="#">全部分类</dt>
+		<dd>
+			<ol>
+				<li><a href="javascript:;" data-value="11">1111</a></li>
+				<li><a href="javascript:;" data-value="22">2222</a></li>
+				<li><a href="javascript:;" data-value="33">3333</a></li>
+				<li><a href="javascript:;" data-value="44">4444</a></li>
+				<li><a href="javascript:;" data-value="55">5555</a></li>
+				<li><a href="javascript:;" data-value="66">6666</a></li>
+			</ol>
+		</dd>
+	</dl>	
+    <input type="button" value="getvalue" onclick="alert(Get_select().value+'  and  name:'+Get_select().name);" />
+    <input type="button" value="setnewslt" onclick="setnewslt()" />
+</div>
+
+</body>
+</html>
