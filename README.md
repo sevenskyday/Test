@@ -1,4 +1,4 @@
-##这里都是一些测试的例子##
+﻿##这里都是一些测试的例子##
 ###文件夹###
 + javacarapt
 + css
@@ -9,8 +9,8 @@
 ##关于作者
 
 ```javascript
-  var ihubo = {
-    nickName  : "seven",
-    time : "20151130"
+  var author= {
+    Name  : "seven",
+    Time : "20151130"
   }
 ```
